@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class CocktailSort {
     public static void cocktailSort( int[] input ) {
         boolean swapped;
@@ -28,17 +30,8 @@ public class CocktailSort {
 
     public static void main(String[] args) {
         int[] a = { 3, 12, 17, 10,  4, 18,  8,  7,  1, 15, 16, 14, 20, 13,  2, 19,  9, 11,  6,  5};
-        printArray(a);
-
+        System.out.println(Arrays.toString(a));
         cocktailSort(a);
-
-        printArray(a);
-    }
-
-    public static  void printArray(int[] elements){
-        for (int element : elements) {
-            System.out.printf("%d ", element);
-        }
-        System.out.printf("\n");
+        System.out.println(Arrays.toString(a));
     }
 }

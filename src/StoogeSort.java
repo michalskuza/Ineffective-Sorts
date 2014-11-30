@@ -21,11 +21,8 @@ public class StoogeSort {
 
     public static void main(String[] args) {
         int[] a = { 3, 12, 17, 10,  4, 18,  8,  7,  1, 15, 16, 14, 20, 13,  2, 19,  9, 11,  6,  5};
-
         System.out.println(Arrays.toString(a));
-
         stoogeSort(a);
-
         System.out.println(Arrays.toString(a));
     }
 }
