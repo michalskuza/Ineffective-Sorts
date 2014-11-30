@@ -26,10 +26,9 @@ public class Bogosort {
     }
 
     public static void main(String[] args) {
-
         List<String> input = Arrays.asList("S O R T E X A M P L E".split(" "));
-
+        System.out.println(input);
         bogoSort(input);
-        System.out.println("Sorted");
+        System.out.println(input);
     }
 }

@@ -19,15 +19,8 @@ public class BubbleSort {
 
     public static void main(String[] args) {
         List<String> input = Arrays.asList("S O R T E X A M P L E".split(" "));
-        printList(input);
+        System.out.println(input);
         bubbleSort(input);
-        printList(input);
-    }
-
-    public static <T> void printList(List<T> elements){
-        for (T element : elements) {
-            System.out.printf("%s ", element);
-        }
-        System.out.printf("\n");
+        System.out.println(input);
     }
 }
